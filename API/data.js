@@ -1,6 +1,6 @@
 const parkingData = [
   {
-    id: 1,
+    id: PARKOL001,
     name: "Central Parking Garage",
     location: "123 Main Street, Cityville",
     totalSpaces: 300,
@@ -13,7 +13,7 @@ const parkingData = [
     }
   },
   {
-    id: 2,
+    id: PARKOL002,
     name: "Downtown Plaza Parking",
     location: "456 Elm Avenue, Townsville",
     totalSpaces: 200,
@@ -26,7 +26,7 @@ const parkingData = [
     }
   },
   {
-    id: 3,
+    id: PARKOL003,
     name: "Riverside Parking Lot",
     location: "789 River Road, Villagetown",
     totalSpaces: 100,
