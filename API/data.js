@@ -193,6 +193,142 @@ const parkingData = [
       latitude: 22.497679,
       longitude: 88.369388
     }
+  },
+    //North Kolkata
+  {
+    id: PARKLOT015,
+    name: "RGKar Car Parking Area",
+    location: "16/B, Bidhan Sarani, Shyam Bazar,Kolkata-700004",
+    totalSpaces: 300,     //max
+    availableSpaces: 150,
+    hourlyRate: 65,     //60 to 80
+    isOpen: true,
+    coordinates: {
+      latitude: 22.5982,      //-100 to 100
+      longitude: 88.3687
+    }
+  },
+  {
+    id: PARKLOT016,
+    name: "HATIBAGAN CAR PARKING",
+    location: "H9W7+FH6, Sovabazar St, Girish Park, Sovabazar, Darjipara, Kolkata-700006",
+    totalSpaces: 150,
+    availableSpaces: 40,
+    hourlyRate: 65,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.5968,
+      longitude: 88.3652
+    }
+  },
+  {
+    id: PARKLOT017,
+    name: "Beriwala House Car Park",
+    location: "50B, Muktaram Babu St, Raja Katra, Singhi Bagan, Jorasanko, Kolkata-700007",
+    totalSpaces: 250,
+    availableSpaces: 100,
+    hourlyRate: 60,       //min
+    isOpen: false,
+    coordinates: {
+      latitude: 22.5849,
+      longitude: 88.3591
+    }
+  },
+  //Central kolkata
+  {
+    id: PARKLOT018,
+    name: "TOWN PARKING",
+    location: "H89W+426, Esplanade Row W, B.B.D. Bagh, Kolkata-700001",
+    totalSpaces: 300,
+    availableSpaces: 170,
+    hourlyRate: 80,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.5683,
+      longitude: 88.3433
+    }
+  },
+  //South Kolkata
+  {
+    id: PARKLOT019,
+    name: "Alipore musuem Car Parking",
+    location: "Judges Court Rd, Alipore, Kolkata-700027",
+    totalSpaces: 250,
+    availableSpaces: 80,    
+    hourlyRate: 80,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.5256,
+      longitude: 88.3398
+    }
+  },
+  {
+    id: PARKLOT020,
+    name: "IOCL Parking",
+    location: "Golf Gardens, Tollygunge, Kolkata-700095",
+    totalSpaces: 100,
+    availableSpaces: 35,
+    hourlyRate: 75,
+    isOpen: false,
+    coordinates: {
+      latitude: 22.4986,
+      longitude: 88.3454
+    }
+  },
+  //North-East Kolkata
+  {
+    id: PARKLOT021,
+    name: "Poka Parking",
+    location: "Sreebhumi, Lake Town, South Dumdum-700048",
+    totalSpaces: 100,
+    availableSpaces: 60,
+    hourlyRate: 60,
+    isOpen: false,
+    coordinates: {
+      latitude: 22.5993,
+      longitude: 88.4022
+    }
+  },
+  //North-West Kolkata
+  {
+    id: PARKLOT022,
+    name: "Car Park",
+    location: "3, 63, Aurobindo Sarani Rd, West Kamalapur, Kalidham, Colony, Dum Dum, Kolkata, North Dumdum-700055",
+    totalSpaces: 300,
+    availableSpaces: 150,
+    hourlyRate: 70,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.6626,
+      longitude: 88.4090
+    }
+  },
+  {
+    id: PARKLOT023,
+    name: "Apanjan Car Parking",
+    location: "4, Deshpran Sasmal Ave, Dunlop, U B Colony, Ashokgarh, Kolkata-700108",
+    totalSpaces: 200,
+    availableSpaces: 150,
+    hourlyRate: 70,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.6519,
+      longitude: 88.3786
+    }
+  },
+  //South-South Ease Kolkata
+  {
+    id: PARKLOT024,
+    name: "South City Mall Rooftop Parking",
+    location: "375, Prince Anwar Shah Rd, South City Complex, Tollygunge, Kolkata-700068",
+    totalSpaces: 300,
+    availableSpaces: 200,
+    hourlyRate: 80,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.5017,
+      longitude: 88.3615
+    }
   }
   // Add more parking lots here...
 ];
