@@ -37,8 +37,60 @@ const parkingData = [
       latitude: 39.9526,
       longitude: -75.1652
     }
-  }
-  // Add more parking lots here...
+  },
+  {
+    id: PARKLOT025,
+    name: "Parking Zone",
+    location: "Barrackpore station Road,West Bengal 700120",
+    totalSpaces: 200,
+    availableSpaces: 100,
+    hourlyRate: 60,
+    isOpen: false,
+    coordinates: {
+      latitude: 22.760074,
+      longitude: 88.370822
+    }
+  },
+  {
+    id: PARKLOT026,
+    name: "Jubilee Car Parking Service",
+    location: "Azad Hind Bag, Maniktala, Kolkata-700006",
+    totalSpaces: 300,
+    availableSpaces: 120,
+    hourlyRate: 60,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.588775,
+      longitude: 88.369607
+    }
+  },  
+  {
+    id: PARKLOT027,
+    name: "CC2 Parking Lot",
+    location: "Action Area IID, Newtown,West Bengal-700052",
+    totalSpaces: 250,
+    availableSpaces: 100,
+    hourlyRate: 80,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.623199,
+      longitude: 88.450145
+    }
+  },
+  {
+    id: PARKLOT028,
+    name: "Parking Zone",
+    location: "Barrackpore station Road,West Bengal 700120",
+    totalSpaces: 200,
+    availableSpaces: 100,
+    hourlyRate: 60,
+    isOpen: false,
+    coordinates: {
+      latitude: 22.760074,
+      longitude: 88.370822
+    }
+  },
+ // Add more parking lots here...
 ];
 
 module.exports = parkingData;
