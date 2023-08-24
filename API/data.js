@@ -90,7 +90,33 @@ const parkingData = [
       longitude: 88.370822
     }
   },
- // Add more parking lots here...
+  {
+    id: PARKLOT029,
+    name: "Car Parking",
+    location: "V9WX+V5J, Chinsurah R S, Chinsurah, West Bengal 712101",
+    totalSpaces: 200,
+    availableSpaces: 80,
+    hourlyRate: 70,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.897218,
+      longitude: 88.397893
+    }
+  },
+  {
+    id: PARKLOT030,
+    name: "Paul Car Parking",
+    location: "9, Naihati, Kolkata, West Bengal 743165",
+    totalSpaces: 150,
+    availableSpaces: 70,
+    hourlyRate: 60,
+    isOpen: false,
+    coordinates: {
+      latitude: 22.893286,
+      longitude: 88.424144
+    }
+  }, 
+// Add more parking lots here...
 ];
 
 module.exports = parkingData;
