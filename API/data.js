@@ -116,7 +116,112 @@ const parkingData = [
       longitude: 88.424144
     }
   }, 
-// Add more parking lots here...
+  {
+    id: PARKLOT031,
+    name: "Jyoti Parking",
+    location: "Sukhsanatantala,Chandannagar,West Bengal-712136",
+    totalSpaces: 100,
+    availableSpaces: 50,
+    hourlyRate: 70,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.857103,
+      longitude: 88.355642
+    }
+  },
+  {
+    id: PARKLOT032,
+    name: "Dakshineswar Temple Complex Car Parking 2",
+    location: "M945+H8P, Dakshineswar, Kolkata, West Bengal 700076",
+    totalSpaces: 200,
+    availableSpaces: 180,
+    hourlyRate: 60,
+    isOpen: false,
+    coordinates: {
+      latitude: 22.656445,
+      longitude: 88.358355
+    }
+  },
+  {
+    id: PARKLOT033,
+    name: "Rangoli Mall Parking",
+    location: "68, Ram Lochan Shire St, Belur Math, Howrah, West Bengal 711202",
+    totalSpaces: 120,
+    availableSpaces: 50,
+    hourlyRate: 60,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.624692,
+      longitude: 88.353680
+    }
+  },
+  {
+    id: PARKLOT034,
+    name: "City Center-1 Parking",
+    location: "CITY CENTRE 1 DC BLOCK PARKING LOT. SEC 1 KOLKATA 700064, DC Block, Sector 1, Bidhannagar, Kolkata, West Bengal 700064",
+    totalSpaces: 300,
+    availableSpaces: 200,
+    hourlyRate: 80,
+    isOpen: false,
+    coordinates: {
+      latitude: 22.589212,
+      longitude: 88.408775
+    }
+  },
+  {
+    id: PARKLOT035,
+    name: "Parking Place",
+    location: "IB-172, IB-172, IB Block, Sector 3, Kolkata, West Bengal 700106",
+    totalSpaces: 250,
+    availableSpaces: 100,
+    hourlyRate: 80,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.572509,
+      longitude: 88.413432
+    }
+  },
+  {
+    id: PARKLOT036,
+    name: "Parking Place",
+    location: "HCMG+HHX, CK Block, Sector II, Bidhannagar, Kolkata, West Bengal 700091",
+    totalSpaces: 200,
+    availableSpaces: 100,
+    hourlyRate: 80,
+    isOpen: false,
+    coordinates: {
+      latitude: 22.572509,
+      longitude: 88.413432
+    }
+  },
+  {
+    id: PARKLOT037,
+    name: "Car Parking Garage",
+    location: "H7VV+88C, Ramrajatala, Howrah, West Bengal 711104",
+    totalSpaces: 250,
+    availableSpaces: 100,
+    hourlyRate: 60,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.593305,
+      longitude: 88.293279
+    }
+  },
+  {
+    id: PARKLOT038,
+    name: "RKG Garage",
+    location: "19/62, Mall Rd, K.B.Sarani, Arjunpur, Dum Dum, Kolkata, West Bengal 700080",
+    totalSpaces: 300,
+    availableSpaces: 200,
+    hourlyRate: 60,
+    isOpen: false,
+    coordinates: {
+      latitude: 22.628571,
+      longitude: 88.425438
+    }
+  },
+
+     // Add more parking lots here...
 ];
 
 module.exports = parkingData;
