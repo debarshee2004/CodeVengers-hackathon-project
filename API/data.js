@@ -1,44 +1,5 @@
 const parkingData = [
   {
-    id: PARKOL001,
-    name: "Central Parking Garage",
-    location: "123 Main Street, Cityville",
-    totalSpaces: 300,
-    availableSpaces: 150,
-    hourlyRate: 2.5,
-    isOpen: true,
-    coordinates: {
-      latitude: 40.7128,
-      longitude: -74.0060
-    }
-  },
-  {
-    id: PARKOL002,
-    name: "Downtown Plaza Parking",
-    location: "456 Elm Avenue, Townsville",
-    totalSpaces: 200,
-    availableSpaces: 50,
-    hourlyRate: 3.0,
-    isOpen: true,
-    coordinates: {
-      latitude: 34.0522,
-      longitude: -118.2437
-    }
-  },
-  {
-    id: PARKOL003,
-    name: "Riverside Parking Lot",
-    location: "789 River Road, Villagetown",
-    totalSpaces: 100,
-    availableSpaces: 10,
-    hourlyRate: 1.75,
-    isOpen: false,
-    coordinates: {
-      latitude: 39.9526,
-      longitude: -75.1652
-    }
-  },
-  {
     id: PARKLOT001,
     name: "The 42 Parking",
     location: "Kankaria Estates,Park Street area Kolkata-700071",
@@ -194,143 +155,190 @@ const parkingData = [
       longitude: 88.369388
     }
   },
-    //North Kolkata
   {
-    id: PARKLOT015,
-    name: "RGKar Car Parking Area",
-    location: "16/B, Bidhan Sarani, Shyam Bazar,Kolkata-700004",
-    totalSpaces: 300,     //max
-    availableSpaces: 150,
-    hourlyRate: 65,     //60 to 80
+    id: PARKLOT013,
+    name: "Parking Zone",
+    location: "Barrackpore station Road,West Bengal 700120",
+    totalSpaces: 200,
+    availableSpaces: 100,
+    hourlyRate: 60,
+    isOpen: false,
+    coordinates: {
+      latitude: 22.760074,
+      longitude: 88.370822
+    }
+  },
+  {
+    id: PARKLOT014,
+    name: "Jubilee Car Parking Service",
+    location: "Azad Hind Bag, Maniktala, Kolkata-700006",
+    totalSpaces: 300,
+    availableSpaces: 120,
+    hourlyRate: 60,
     isOpen: true,
     coordinates: {
-      latitude: 22.5982,      //-100 to 100
-      longitude: 88.3687
+      latitude: 22.588775,
+      longitude: 88.369607
+    }
+  },  
+  {
+    id: PARKLOT015,
+    name: "CC2 Parking Lot",
+    location: "Action Area IID, Newtown,West Bengal-700052",
+    totalSpaces: 250,
+    availableSpaces: 100,
+    hourlyRate: 80,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.623199,
+      longitude: 88.450145
     }
   },
   {
     id: PARKLOT016,
-    name: "HATIBAGAN CAR PARKING",
-    location: "H9W7+FH6, Sovabazar St, Girish Park, Sovabazar, Darjipara, Kolkata-700006",
-    totalSpaces: 150,
-    availableSpaces: 40,
-    hourlyRate: 65,
-    isOpen: true,
+    name: "Parking Zone",
+    location: "Barrackpore station Road,West Bengal 700120",
+    totalSpaces: 200,
+    availableSpaces: 100,
+    hourlyRate: 60,
+    isOpen: false,
     coordinates: {
-      latitude: 22.5968,
-      longitude: 88.3652
+      latitude: 22.760074,
+      longitude: 88.370822
     }
   },
   {
     id: PARKLOT017,
-    name: "Beriwala House Car Park",
-    location: "50B, Muktaram Babu St, Raja Katra, Singhi Bagan, Jorasanko, Kolkata-700007",
-    totalSpaces: 250,
-    availableSpaces: 100,
-    hourlyRate: 60,       //min
-    isOpen: false,
+    name: "Car Parking",
+    location: "V9WX+V5J, Chinsurah R S, Chinsurah, West Bengal 712101",
+    totalSpaces: 200,
+    availableSpaces: 80,
+    hourlyRate: 70,
+    isOpen: true,
     coordinates: {
-      latitude: 22.5849,
-      longitude: 88.3591
+      latitude: 22.897218,
+      longitude: 88.397893
     }
   },
-  //Central kolkata
   {
     id: PARKLOT018,
-    name: "TOWN PARKING",
-    location: "H89W+426, Esplanade Row W, B.B.D. Bagh, Kolkata-700001",
-    totalSpaces: 300,
-    availableSpaces: 170,
-    hourlyRate: 80,
-    isOpen: true,
+    name: "Paul Car Parking",
+    location: "9, Naihati, Kolkata, West Bengal 743165",
+    totalSpaces: 150,
+    availableSpaces: 70,
+    hourlyRate: 60,
+    isOpen: false,
     coordinates: {
-      latitude: 22.5683,
-      longitude: 88.3433
+      latitude: 22.893286,
+      longitude: 88.424144
     }
-  },
-  //South Kolkata
+  }, 
   {
     id: PARKLOT019,
-    name: "Alipore musuem Car Parking",
-    location: "Judges Court Rd, Alipore, Kolkata-700027",
-    totalSpaces: 250,
-    availableSpaces: 80,    
-    hourlyRate: 80,
+    name: "Jyoti Parking",
+    location: "Sukhsanatantala,Chandannagar,West Bengal-712136",
+    totalSpaces: 100,
+    availableSpaces: 50,
+    hourlyRate: 70,
     isOpen: true,
     coordinates: {
-      latitude: 22.5256,
-      longitude: 88.3398
+      latitude: 22.857103,
+      longitude: 88.355642
     }
   },
   {
     id: PARKLOT020,
-    name: "IOCL Parking",
-    location: "Golf Gardens, Tollygunge, Kolkata-700095",
-    totalSpaces: 100,
-    availableSpaces: 35,
-    hourlyRate: 75,
-    isOpen: false,
-    coordinates: {
-      latitude: 22.4986,
-      longitude: 88.3454
-    }
-  },
-  //North-East Kolkata
-  {
-    id: PARKLOT021,
-    name: "Poka Parking",
-    location: "Sreebhumi, Lake Town, South Dumdum-700048",
-    totalSpaces: 100,
-    availableSpaces: 60,
+    name: "Dakshineswar Temple Complex Car Parking 2",
+    location: "M945+H8P, Dakshineswar, Kolkata, West Bengal 700076",
+    totalSpaces: 200,
+    availableSpaces: 180,
     hourlyRate: 60,
     isOpen: false,
     coordinates: {
-      latitude: 22.5993,
-      longitude: 88.4022
+      latitude: 22.656445,
+      longitude: 88.358355
     }
   },
-  //North-West Kolkata
   {
-    id: PARKLOT022,
-    name: "Car Park",
-    location: "3, 63, Aurobindo Sarani Rd, West Kamalapur, Kalidham, Colony, Dum Dum, Kolkata, North Dumdum-700055",
-    totalSpaces: 300,
-    availableSpaces: 150,
-    hourlyRate: 70,
+    id: PARKLOT021,
+    name: "Rangoli Mall Parking",
+    location: "68, Ram Lochan Shire St, Belur Math, Howrah, West Bengal 711202",
+    totalSpaces: 120,
+    availableSpaces: 50,
+    hourlyRate: 60,
     isOpen: true,
     coordinates: {
-      latitude: 22.6626,
-      longitude: 88.4090
+      latitude: 22.624692,
+      longitude: 88.353680
+    }
+  },
+  {
+    id: PARKLOT022,
+    name: "City Center-1 Parking",
+    location: "CITY CENTRE 1 DC BLOCK PARKING LOT. SEC 1 KOLKATA 700064, DC Block, Sector 1, Bidhannagar, Kolkata, West Bengal 700064",
+    totalSpaces: 300,
+    availableSpaces: 200,
+    hourlyRate: 80,
+    isOpen: false,
+    coordinates: {
+      latitude: 22.589212,
+      longitude: 88.408775
     }
   },
   {
     id: PARKLOT023,
-    name: "Apanjan Car Parking",
-    location: "4, Deshpran Sasmal Ave, Dunlop, U B Colony, Ashokgarh, Kolkata-700108",
-    totalSpaces: 200,
-    availableSpaces: 150,
-    hourlyRate: 70,
-    isOpen: true,
-    coordinates: {
-      latitude: 22.6519,
-      longitude: 88.3786
-    }
-  },
-  //South-South Ease Kolkata
-  {
-    id: PARKLOT024,
-    name: "South City Mall Rooftop Parking",
-    location: "375, Prince Anwar Shah Rd, South City Complex, Tollygunge, Kolkata-700068",
-    totalSpaces: 300,
-    availableSpaces: 200,
+    name: "Parking Place",
+    location: "IB-172, IB-172, IB Block, Sector 3, Kolkata, West Bengal 700106",
+    totalSpaces: 250,
+    availableSpaces: 100,
     hourlyRate: 80,
     isOpen: true,
     coordinates: {
-      latitude: 22.5017,
-      longitude: 88.3615
+      latitude: 22.572509,
+      longitude: 88.413432
     }
-  }
-  // Add more parking lots here...
+  },
+  {
+    id: PARKLOT024,
+    name: "Parking Place",
+    location: "HCMG+HHX, CK Block, Sector II, Bidhannagar, Kolkata, West Bengal 700091",
+    totalSpaces: 200,
+    availableSpaces: 100,
+    hourlyRate: 80,
+    isOpen: false,
+    coordinates: {
+      latitude: 22.572509,
+      longitude: 88.413432
+    }
+  },
+  {
+    id: PARKLOT025,
+    name: "Car Parking Garage",
+    location: "H7VV+88C, Ramrajatala, Howrah, West Bengal 711104",
+    totalSpaces: 250,
+    availableSpaces: 100,
+    hourlyRate: 60,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.593305,
+      longitude: 88.293279
+    }
+  },
+  {
+    id: PARKLOT026,
+    name: "RKG Garage",
+    location: "19/62, Mall Rd, K.B.Sarani, Arjunpur, Dum Dum, Kolkata, West Bengal 700080",
+    totalSpaces: 300,
+    availableSpaces: 200,
+    hourlyRate: 60,
+    isOpen: false,
+    coordinates: {
+      latitude: 22.628571,
+      longitude: 88.425438
+    }
+  },
+
+     // Add more parking lots here...
 ];
 
 module.exports = parkingData;
