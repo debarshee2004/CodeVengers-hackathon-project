@@ -1,6 +1,6 @@
 const parkingData = [
   {
-    id: PARKLOT001,
+    id: 'PARKLOT001',
     name: "The 42 Parking",
     location: "Kankaria Estates,Park Street area Kolkata-700071",
     totalSpaces: 300,
@@ -13,7 +13,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT002,
+    id: 'PARKLOT002',
     name: "Dharmatal Sahid Minar",
     location: "Dharmtalla,Dufferin Road,Kolkata-700069",
     totalSpaces: 250,
@@ -26,7 +26,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT003,
+    id: 'PARKLOT003',
     name: "Camac street parking ground",
     location: "2C,Camac St,Elgin,Kolkata-700017",
     totalSpaces: 100,
@@ -39,7 +39,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT004,
+    id: 'PARKLOT004',
     name: "ICICI Lombard Network Garage",
     location: "P-256 & 257,CIT Road,Entally,Kolkata-700010",
     totalSpaces: 200,
@@ -52,7 +52,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT005,
+    id: 'PARKLOT005',
     name: "Sorvey Parking",
     location: "Fire Brigade Hrad Quater,New Market Area,Taltala",
     totalSpaces: 200,
@@ -65,7 +65,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT006,
+    id: 'PARKLOT006',
     name: "Consultive Parking",
     location: "Lake Market,Kalighat,Kolkata-700029",
     totalSpaces: 110,
@@ -78,7 +78,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT007,
+    id: 'PARKLOT007',
     name: "Adil's Parking",
     location: "Moulama Mohammed Ali Road near Madina Masjid,Babu Bazar,Khidirpur,Kolkata-700023",
     totalSpaces: 100,
@@ -91,7 +91,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT008,
+    id: 'PARKLOT008',
     name: "Parking",
     location: "Sreepally,Bhowanipore,Kolkata-700020",
     totalSpaces: 200,
@@ -104,7 +104,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT009,
+    id: 'PARKLOT009',
     name: "Car Parking",
     location: "Dover Terrace,Ballygunge,Kolkata-700019",
     totalSpaces: 240,
@@ -117,7 +117,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT010,
+    id: 'PARKLOT010',
     name: "Suman's Garage",
     location: "Baliya,Garia,Kolkata-700084",
     totalSpaces: 100,
@@ -130,7 +130,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT011,
+    id: 'PARKLOT011',
     name: "Maa Tara Garage",
     location: "188,Gopinagar,Behala,Kolkata-700034",
     totalSpaces: 220,
@@ -143,7 +143,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT012,
+    id: 'PARKLOT012',
     name: "IICB Parking Lot",
     location: "CSIR-IICB,Indian association for the cultivation of science,Poddar Nagar,Jadavpur,Kolkata-700032",
     totalSpaces: 200,
@@ -156,7 +156,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT013,
+    id: 'PARKLOT013',
     name: "Parking Zone",
     location: "Barrackpore station Road,West Bengal 700120",
     totalSpaces: 200,
@@ -169,7 +169,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT014,
+    id: 'PARKLOT014',
     name: "Jubilee Car Parking Service",
     location: "Azad Hind Bag, Maniktala, Kolkata-700006",
     totalSpaces: 300,
@@ -182,7 +182,7 @@ const parkingData = [
     }
   },  
   {
-    id: PARKLOT015,
+    id: 'PARKLOT015',
     name: "CC2 Parking Lot",
     location: "Action Area IID, Newtown,West Bengal-700052",
     totalSpaces: 250,
@@ -195,7 +195,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT016,
+    id: 'PARKLOT016',
     name: "Parking Zone",
     location: "Barrackpore station Road,West Bengal 700120",
     totalSpaces: 200,
@@ -208,7 +208,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT017,
+    id: 'PARKLOT017',
     name: "Car Parking",
     location: "V9WX+V5J, Chinsurah R S, Chinsurah, West Bengal 712101",
     totalSpaces: 200,
@@ -221,7 +221,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT018,
+    id: 'PARKLOT018',
     name: "Paul Car Parking",
     location: "9, Naihati, Kolkata, West Bengal 743165",
     totalSpaces: 150,
@@ -234,7 +234,7 @@ const parkingData = [
     }
   }, 
   {
-    id: PARKLOT019,
+    id: 'PARKLOT019',
     name: "Jyoti Parking",
     location: "Sukhsanatantala,Chandannagar,West Bengal-712136",
     totalSpaces: 100,
@@ -247,7 +247,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT020,
+    id: 'PARKLOT020',
     name: "Dakshineswar Temple Complex Car Parking 2",
     location: "M945+H8P, Dakshineswar, Kolkata, West Bengal 700076",
     totalSpaces: 200,
@@ -260,7 +260,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT021,
+    id: 'PARKLOT021',
     name: "Rangoli Mall Parking",
     location: "68, Ram Lochan Shire St, Belur Math, Howrah, West Bengal 711202",
     totalSpaces: 120,
@@ -273,7 +273,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT022,
+    id: 'PARKLOT022',
     name: "City Center-1 Parking",
     location: "CITY CENTRE 1 DC BLOCK PARKING LOT. SEC 1 KOLKATA 700064, DC Block, Sector 1, Bidhannagar, Kolkata, West Bengal 700064",
     totalSpaces: 300,
@@ -286,7 +286,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT023,
+    id: 'PARKLOT023',
     name: "Parking Place",
     location: "IB-172, IB-172, IB Block, Sector 3, Kolkata, West Bengal 700106",
     totalSpaces: 250,
@@ -299,7 +299,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT024,
+    id: 'PARKLOT024',
     name: "Parking Place",
     location: "HCMG+HHX, CK Block, Sector II, Bidhannagar, Kolkata, West Bengal 700091",
     totalSpaces: 200,
@@ -312,7 +312,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT025,
+    id: 'PARKLOT025',
     name: "Car Parking Garage",
     location: "H7VV+88C, Ramrajatala, Howrah, West Bengal 711104",
     totalSpaces: 250,
@@ -325,7 +325,7 @@ const parkingData = [
     }
   },
   {
-    id: PARKLOT026,
+    id: 'PARKLOT026',
     name: "RKG Garage",
     location: "19/62, Mall Rd, K.B.Sarani, Arjunpur, Dum Dum, Kolkata, West Bengal 700080",
     totalSpaces: 300,
