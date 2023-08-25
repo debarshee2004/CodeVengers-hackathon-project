@@ -220,8 +220,19 @@ const parkingData = [
       longitude: 88.425438
     }
   },
-
-     // Add more parking lots here...
+  {
+    id: PARKLOT039,
+    name: "ISI Parking Lot",
+    location: "J9XG+CG5, Dunlop, Bonhooghly Government Colony, Baranagar, West Bengal 7001080",
+    totalSpaces: 200,
+    availableSpaces: 100,
+    hourlyRate: 60,
+    isOpen: true,
+    coordinates: {
+      latitude: 22.648511,
+      longitude: 88.376340
+    }
+  },     // Add more parking lots here...
 ];
 
 module.exports = parkingData;
